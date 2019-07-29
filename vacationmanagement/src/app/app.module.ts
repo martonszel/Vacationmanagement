@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
@@ -15,6 +16,7 @@ import { VerifyEmailComponent } from './components/verify-email/verify-email.com
 import { AuthService } from './services/auth.service';
 import { CalendarComponent } from './components/calendar/calendar.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,7 @@ import { CalendarComponent } from './components/calendar/calendar.component';
     SignUpComponent,
     ForgotPasswordComponent,
     VerifyEmailComponent,
-    CalendarComponent
+    CalendarComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +33,7 @@ import { CalendarComponent } from './components/calendar/calendar.component';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
     AngularFireAuthModule,
+    NgbModule
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]
