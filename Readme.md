@@ -29,6 +29,4 @@ Step 4
 - Modify  
 ![ResetPSW](img/resetpassword.gif)
 
-- Responsive  
-![Responsive](img/Responsive.gif)
 
