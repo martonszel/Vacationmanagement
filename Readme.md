@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-- git clone (https://gitlab.com/martonszel/fornax.git)
+- git clone (https://github.com/martonszel/Vacationmanagement)
 - cd vacationmanagement/
 
 ## Prerequisites
